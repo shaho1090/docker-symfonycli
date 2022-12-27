@@ -41,7 +41,6 @@ services:
   #phpmyadmin
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
-    container_name: phpmyadmin_2
     depends_on:
       - db
     restart: unless-stopped
