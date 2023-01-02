@@ -34,7 +34,7 @@ Use this repository to start your development. Just do the following steps in or
    ```
    - docker compose -f docker-compose.dev.yaml up --build -d
    ```
-6. Run the docker desktop on your os, find the project container and open the **app service**, open its command-line, then Install your new symfony project:  
+6. Run the docker desktop on your os, find the project container and open the **app service**, open its command-line, then install your new symfony project:  
    ````
    - symfony new . --version=5.4 --no-git
    ````
