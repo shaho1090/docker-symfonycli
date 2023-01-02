@@ -49,6 +49,7 @@ Use this repository to start your development. Just do the following steps in or
     - cd ..
     - git remote rm origin
     - git remote add origin <your repository url>
+    - git push -u origin main
     ````      
    Also consider the ports in the dev environment:
       ```
