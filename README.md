@@ -40,7 +40,7 @@ Use this repository to start your development. Just do the following steps in or
    ````
 7. Install your new symfony project:  
    ````
-   - symfony new . --version=5.4
+   - symfony new . --version=5.4 --no-git
    ````
 8. **Do not forget to change git origin to point your project's repository**:
     ````
