@@ -10,7 +10,7 @@ RUN apt update \
 
 ENV COMPOSER_ALLOW_SUPERUSER = 1
 
-COPY --from=composer:2.4 /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2.5 /usr/bin/composer /usr/bin/composer
 
 COPY ./app/composer.* ./
 
