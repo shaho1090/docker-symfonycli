@@ -42,7 +42,7 @@ Use this repository to start your development. Just do the following steps in or
    ````
    - symfony new . --version=5.4 --no-git
    ````
-   Wait for installation to complete then:  
+   Wait for installation to complete, then:  
       
 8. **Do not forget to change git origin to point your project's repository**:
     ````
