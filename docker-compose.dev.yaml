@@ -3,7 +3,7 @@ services:
   web:
     image: nginx:latest
     ports:
-      - "80:80"
+      - "8100:80"
     volumes:
       - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
 
@@ -28,7 +28,7 @@ services:
     volumes:
       - mysqldata:/var/lib/mysql
     ports:
-      - "4600:3306"
+      - "4800:3306"
     restart: unless-stopped
     env_file:
       - .env
@@ -50,7 +50,7 @@ services:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD:  ${MYSQL_ROOT_PASSWORD}
     ports:
-      - "8099:80"
+      - "8088:80"
 
   #redis
 volumes:
