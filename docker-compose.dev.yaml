@@ -52,6 +52,5 @@ services:
     ports:
       - "8088:80"
 
-  #redis
 volumes:
   mysqldata:
