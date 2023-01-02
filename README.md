@@ -46,5 +46,11 @@ Use this repository to start your development. Just do the following steps in or
     ````
     - git remote rm origin
     - git remote add origin <your repository url>
-    ````  
+    ````      
+   Also consider the ports in the dev environment:
+      ```
+      app: localhost:8100
+      mysql: 4800
+      phpmyadmin: 8088
+      ```
 **_Make a great stuff!_**
