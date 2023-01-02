@@ -34,19 +34,14 @@ Use this repository to start your development. Just do the following steps in or
    ```
    - docker compose -f docker-compose.dev.yaml up --build -d
    ```
-6. Change directory:   
-   ````
-   - cd app
-   ````
-7. Install your new symfony project:  
+6. Run the docker desktop on your os, find the project container and open the **app service**, open its command-line, then Install your new symfony project:  
    ````
    - symfony new . --version=5.4 --no-git
    ````
    Wait for installation to complete, then:  
       
-8. **Do not forget to change git origin to point your project's repository in root directory**:
+8. **Do not forget to change git origin to point your project's repository in the root directory**:
     ````
-    - cd ..
     - git remote rm origin
     - git remote add origin <your repository url>
     - git push -u origin main
