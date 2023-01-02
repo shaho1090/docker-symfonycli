@@ -44,8 +44,9 @@ Use this repository to start your development. Just do the following steps in or
    ````
    Wait for installation to complete, then:  
       
-8. **Do not forget to change git origin to point your project's repository**:
+8. **Do not forget to change git origin to point your project's repository in root directory**:
     ````
+    - cd ..
     - git remote rm origin
     - git remote add origin <your repository url>
     ````      
