@@ -6,6 +6,7 @@ services:
       - "8100:80"
     volumes:
       - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./app:/var/www/html
 
   #php
   app:
