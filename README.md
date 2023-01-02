@@ -51,6 +51,6 @@ Use this repository to start your development. Just do the following steps in or
       ```
       app: localhost:8100
       mysql: 4800
-      phpmyadmin: 8088
+      phpmyadmin: localhost:8088
       ```
 **_Make a great stuff!_**
