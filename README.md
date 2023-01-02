@@ -10,7 +10,7 @@ Thanks to [Gary Clarke's Tutorials](https://www.youtube.com/@GaryClarkeTech), I 
    composer 2.5  
    symfony cli 5.4  
    
-Use this repository to start your development. Just create your symfony project inside the app directory like:  
+Use this repository to start your development. Just go to the app directory and create your new symfony project:  
 ```
 - symfony new . --version=5.4
 ```
