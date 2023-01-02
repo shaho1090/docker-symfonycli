@@ -26,4 +26,4 @@ Use this repository to start your development. Just create your symfony project 
 - git remote rm origin
 - git remote add origin <your repository url>
 ```  
-Make a great stuff!
+**_Make a great stuff!_**
