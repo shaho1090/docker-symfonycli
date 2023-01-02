@@ -20,4 +20,10 @@ Use this repository to start your development. Just create your symfony project 
 3. Run:
 ```
  - docker compose -f docker-compose.dev.yaml up --build -d
+```  
+4. **Do not forget to change git origin to point your project**:
 ```
+- git remote rm origin
+- git remote add origin <your repository url>
+```  
+Make a great stuff!
