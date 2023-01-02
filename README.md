@@ -10,20 +10,41 @@ Thanks to [Gary Clarke's Tutorials](https://www.youtube.com/@GaryClarkeTech), I 
    composer 2.5  
    symfony cli 5.4  
    
-Use this repository to start your development. Just go to the app directory and create your new symfony project:  
-```
-- symfony new . --version=5.4
-```
+Use this repository to start your development. Just do the following steps in order.
+
 ## installation:
 1. Clone the repository
-2. Go to the directory of the repository and make copy of the ".env.example" and save it with ".env" name.
-3. Run:
-```
- - docker compose -f docker-compose.dev.yaml up --build -d
-```  
-4. **Do not forget to change git origin to point your project**:
-```
-- git remote rm origin
-- git remote add origin <your repository url>
-```  
+   . you can change directory's name of the project as yours with this command:
+   ````
+   - git clone https://github.com/shaho1090/docker-symfonycli.git ./my_project_name
+   ````
+2. Then change directory:
+   ````
+   - cd my_project_name
+   ````
+3. Make copy of the **.env.example** file with name **.env** :   
+   ````
+   - copy .env.example .env
+   ````
+4. Make **app** directory
+   ````
+   - mkdir app
+   ````
+5. Run:  
+   ```
+   - docker compose -f docker-compose.dev.yaml up --build -d
+   ```
+6. Change directory:   
+   ````
+   - cd app
+   ````
+7. Install your new symfony project:  
+   ````
+   - symfony new . --version=5.4
+   ````
+8. **Do not forget to change git origin to point your project's repository**:
+    ````
+    - git remote rm origin
+    - git remote add origin <your repository url>
+    ````  
 **_Make a great stuff!_**
