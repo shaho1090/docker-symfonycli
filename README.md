@@ -1,7 +1,3 @@
-## Introduction:
-
-Thanks to [Gary Clarke's Tutorials](https://www.youtube.com/@GaryClarkeTech), I have prepared this repository containing the following images as services in a docker container:
-
 1. php-fpm 8.1
 2. nginx the latest version
 3. mysql 8.0
